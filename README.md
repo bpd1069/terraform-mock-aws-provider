@@ -6,7 +6,7 @@ terraform-mock-aws-prodiver: Sandbox with Amazon Linux and Terraform. AWS APIS a
 ```bash
 git clone https://github.com/herrera-luis/terraform-mock-aws-provider.git
 cd terraform-mock-aws-provider/
-./terraform-docker.sh bake
+./terraform-docker.sh build
 ```
 
 ## How to Run?
