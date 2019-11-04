@@ -114,4 +114,4 @@ Destroy complete! Resources: 1 destroyed.
 
 ## How do make changes in terraform ?
 
-Juts go to src/main.tf and do you code there. There are specific configs there in order to mock aws with localstack.
+Juts go to src/main.tf and update or add more resources. There are specific configs there in order to mock aws with localstack.
