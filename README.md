@@ -14,6 +14,7 @@ Terminal 1
 ```bash
 ./terraform-docker.sh localstack
 ```
+Output:
 ```bash
 Waiting for all LocalStack services to be ready
 2019-11-04 21:38:38,936 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
@@ -66,6 +67,7 @@ Terminal 2
 ```bash
 ./terraform-docker.sh run
 ```
+Output:
 ```bash
 Initializing provider plugins...
 
@@ -123,6 +125,7 @@ goto: http://localhost:8080/#/infra
 ```bash
 ./terraform-docker.sh destroy
 ```
+Output:
 ```bash
 Refreshing Terraform state in-memory prior to plan...
 The refreshed state will be used to calculate this plan, but will not be
