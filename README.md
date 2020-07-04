@@ -3,17 +3,19 @@
 terraform-mock-aws-prodiver: Sandbox with Amazon Linux and Terraform. AWS APIS are mocked with LocalStack.
 
 ## How to Install?
+
+Build the image and install dependencies with: 
 ```bash
-git clone https://github.com/herrera-luis/terraform-mock-aws-provider.git
-cd terraform-mock-aws-provider/
 ./terraform-docker.sh build
 ```
+**Terminal 1**
 
-## How to Run?
-Terminal 1
+On your terminal 1 run localstack with:
+
 ```bash
 ./terraform-docker.sh localstack
 ```
+
 Output:
 ```bash
 Waiting for all LocalStack services to be ready

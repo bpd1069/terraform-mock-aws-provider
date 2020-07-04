@@ -26,7 +26,8 @@ function localstack(){
           -v "/tmp/localstack:/tmp/localstack" \
           -v "/var/run/docker.sock:/var/run/docker.sock" \
           -e DOCKER_HOST="unix:///var/run/docker.sock" \
-          -e HOST_TMP_FOLDER="/tmp/localstack" "localstack/localstack"
+          -e HOST_TMP_FOLDER="/tmp/localstack" \
+          localstack/localstack
 }
 
 function help(){
