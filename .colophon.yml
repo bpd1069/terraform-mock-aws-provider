@@ -10,9 +10,13 @@ contacts:
   - type: Maintainer
     name: Luis Herrera
     github: herrera-luis
-    email: herrera_luis10@hotmail.co
+    email: herrera_luis10@hotmail.com
 
 environments:
   - type: git
     title: local
+    uri: https://github.com/devops-resources/terraform-mock-aws-provider
+
+  - type: aws
+    title: dev
     uri: https://github.com/devops-resources/terraform-mock-aws-provider
