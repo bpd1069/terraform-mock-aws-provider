@@ -12,6 +12,11 @@ contacts:
     github: herrera-luis
     email: herrera_luis10@hotmail.com
 
+  - type: Developer
+    name: Luis Herrera
+    github: herrera-luis
+    email: herrera_luis10@hotmail.com
+
 environments:
   - type: git
     title: local
@@ -20,3 +25,12 @@ environments:
   - type: aws
     title: dev
     uri: https://github.com/devops-resources/terraform-mock-aws-provider
+
+schedule:
+  launch: 2019-11-04T00:00:00.000Z
+  v0.x-sunset: 2020-08-20T00:00:00.000Z
+
+references:
+  - title: Github Issue Tracker
+    description: Post bug reports or feature suggestions here!
+    uri: https://github.com/herrera-luis/terraform-mock-aws-provider/issues
