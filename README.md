@@ -1,6 +1,6 @@
 # Terraform Mock AWS Provider With Docker and LocalStack
 
-terraform-mock-aws-prodiver: Sandbox with Amazon Linux and Terraform. AWS APIS are mocked with LocalStack.
+terraform-mock-aws-prodiver: Sandbox with amazon linux OS and terraform. AWS API's are mocked with LocalStack.
 
 ## How to Install?
 

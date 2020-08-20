@@ -1,0 +1,13 @@
+id: terraform-mock-aws-provider
+
+about:
+  title: terraform-mock-aws-provider
+  description: Sandbox with amazon linux OS and terraform. AWS API's are mocked with LocalStack.
+
+contacts:
+  humans: Luis Herrera <herrera_luis10@hotmail.com>
+
+environments:
+  - type: git
+    title: local
+    uri: https://github.com/devops-resources/terraform-mock-aws-provider
