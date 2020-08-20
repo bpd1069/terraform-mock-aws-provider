@@ -1,3 +1,5 @@
+version: 2.0
+
 id: terraform-mock-aws-provider
 
 about:
@@ -5,7 +7,10 @@ about:
   description: Sandbox with amazon linux OS and terraform. AWS API's are mocked with LocalStack.
 
 contacts:
-  humans: Luis Herrera <herrera_luis10@hotmail.com>
+  - type: Maintainer
+    name: Luis Herrera
+    github: herrera-luis
+    email: herrera_luis10@hotmail.co
 
 environments:
   - type: git
